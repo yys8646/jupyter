@@ -9,7 +9,7 @@ git tag -a "$version" -m "version $version"
 git push https://github.com/yys8646/jupyter.git
 git push --tags https://github.com/yys8646/jupyter.git
 
-if [ -r .docker ]; then
-  echo "bash .docker/docker-release.sh"
-  bash .docker/docker-release.sh
+if [ -r docker ]; then
+  echo "bash docker/docker-release.sh"
+  bash docker/docker-release.sh
 fi

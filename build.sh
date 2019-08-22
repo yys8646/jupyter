@@ -1,1 +1,1 @@
-pip install jupyter
+conda install jupyter
