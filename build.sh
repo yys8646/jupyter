@@ -1,1 +1,1 @@
-conda install jupyter
+conda install -y jupyter
